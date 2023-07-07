@@ -1,0 +1,20 @@
+.intro {
+    display: flex;
+    margin: 50px 0;
+    padding: 50px 0;
+}
+
+.intro > div {
+    flex-grow: 1;
+    align-self: center;
+}
+
+.intro-map {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .intro {
+        flex-direction: column-reverse;
+    }
+}

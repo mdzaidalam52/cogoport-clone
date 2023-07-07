@@ -1,0 +1,56 @@
+.intro-video {
+    margin-top: 50px;
+    height: 450px;
+    background: url("https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Fhomepage-video.png&w=1920&q=75");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: (0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-video > img {
+    height: 60px;
+    width: 60px;
+}
+
+.red-banner {
+    background-color: #ee3425;
+}
+
+.red-banner-container {
+    display: flex;
+    color: white;
+    padding: 16px;
+}
+
+.red-banner-container > div {
+    flex-grow: 1;
+    padding: 25px 0;
+}
+
+.yellow-btn {
+    background-color: #fbdc00;
+    padding: 4px 16px;
+    color: black;
+    font-weight: 500;
+    font-style: "PT Sans", sans-serif;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .red-banner-container {
+        flex-direction: column;
+    }
+    .btn-container {
+        align-self: flex-start;
+    }    
+}

@@ -1,0 +1,26 @@
+.industries-name-logo {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.industries-name-logo > div {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.industries-name-logo > div > img {
+    padding-bottom: 20px;
+    height: 87px;
+    width: 107px;
+}
+
+.industries-name-logo > div > span {
+    font-weight: 600;
+}

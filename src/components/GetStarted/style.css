@@ -1,0 +1,50 @@
+.get-started {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.get-started > div {
+    flex-grow: 1;
+}
+
+.get-started > div > img {
+    width: 280px;
+    animation-timing-function: ease;
+    animation: bounce 4s infinite;
+}
+
+.get-started-red-btn {
+    display: block;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    background-color: #ee3425;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 8px 42px;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .get-started{
+        flex-direction: column-reverse;
+    }
+    .get-started-red-btn {
+        width: 100%;
+    }
+}

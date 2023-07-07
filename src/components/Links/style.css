@@ -1,0 +1,25 @@
+.links {
+    display: flex;
+    padding: 50px 50px;
+    justify-content: space-between;
+}
+
+.links h5 {
+    text-decoration: underline;
+}
+
+.links a {
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-top: 16px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.col-links > h6 {
+    margin: 22px 0 6px 0;
+}
