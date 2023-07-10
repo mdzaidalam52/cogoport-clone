@@ -13,10 +13,13 @@ import Blogs from './components/Blogs/Blogs';
 import Subscribe from './components/Subscribe/Subscribe';
 import Links from './components/Links/Links';
 import Footer from './components/Footer/Footer';
+import WhatsAppFlag from './components/WhatsAppFlag/WhatsAppFlag';
+import HowItWorks from './components/HowItWorks/HowItWorks';
 
 function App() {
   return (
     <div className="App">
+      <WhatsAppFlag/>
       <Navbar/>
       <Banner/>
       <div className='light-bg'>
@@ -27,6 +30,7 @@ function App() {
         </Container>
       </div>
       <Trusts/>
+      <HowItWorks/>
       <div className='light-bg'>
         <Container>
           <Industries/>
