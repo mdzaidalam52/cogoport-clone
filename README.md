@@ -23,3 +23,6 @@ I was not able to make a drop down menu. Therefore, such places wherever, I was 
 I haven't modified the elements to show drop down memnu in such scenarios where the drop down is being shown after the window width shrinks: 
 * Navbar
 * Footer part
+
+
+In the `How It Works` section I was not able to figure out how to represent those boxes with respect to the laptop image. Therefore I have left that part too.
